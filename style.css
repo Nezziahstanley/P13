@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.60),rgba(0, 0, 0, 0.60)), url("tablebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%px;
+    height: 75px;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h1 {
+    width: 10px;
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb7620;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+.content p{
+    color: #fff;
+    font-size: 18px;
+}
+
+main{
+    background-color: #000;
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-top: 4px;
+    box-shadow: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h2{
+    color: #ff7200;
+}

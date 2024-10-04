@@ -1,0 +1,88 @@
+ body {
+            background-color: #f7f7f7;
+            font-family: Arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom:  20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 h2 {
+            color: #333;
+        }
+
+        figure {
+            margin: 20px;
+        }
+        
+        figcaption {
+            text-align: center;
+        }
+
+        #portfolio figure {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #portfolio figure {
+            margin: 10px;
+        }
+
+        #services ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #service li {
+            margin-bottom: 10px;
+        }
+
+        #testimonials blockquote {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #testimonials cite {
+            font-style: normal;
+        }
+
+        footer {
+            background-color: #000;
+            color: #333;
+            padding: 30px;
+            text-align: center;
+            clear: both;
+        }
